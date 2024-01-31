@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Externals\Includes\lua\lapi.h" />
+    <ClInclude Include="Externals\Includes\lua\lauxlib.h" />
+    <ClInclude Include="Externals\Includes\lua\lcode.h" />
+    <ClInclude Include="Externals\Includes\lua\lctype.h" />
+    <ClInclude Include="Externals\Includes\lua\ldebug.h" />
+    <ClInclude Include="Externals\Includes\lua\ldo.h" />
+    <ClInclude Include="Externals\Includes\lua\lfunc.h" />
+    <ClInclude Include="Externals\Includes\lua\lgc.h" />
+    <ClInclude Include="Externals\Includes\lua\ljumptab.h" />
+    <ClInclude Include="Externals\Includes\lua\llex.h" />
+    <ClInclude Include="Externals\Includes\lua\llimits.h" />
+    <ClInclude Include="Externals\Includes\lua\lmem.h" />
+    <ClInclude Include="Externals\Includes\lua\lobject.h" />
+    <ClInclude Include="Externals\Includes\lua\lopcodes.h" />
+    <ClInclude Include="Externals\Includes\lua\lopnames.h" />
+    <ClInclude Include="Externals\Includes\lua\lparser.h" />
+    <ClInclude Include="Externals\Includes\lua\lprefix.h" />
+    <ClInclude Include="Externals\Includes\lua\lstate.h" />
+    <ClInclude Include="Externals\Includes\lua\lstring.h" />
+    <ClInclude Include="Externals\Includes\lua\ltable.h" />
+    <ClInclude Include="Externals\Includes\lua\ltm.h" />
+    <ClInclude Include="Externals\Includes\lua\lua.h" />
+    <ClInclude Include="Externals\Includes\lua\lua.hpp" />
+    <ClInclude Include="Externals\Includes\lua\luaconf.h" />
+    <ClInclude Include="Externals\Includes\lua\lualib.h" />
+    <ClInclude Include="Externals\Includes\lua\lundump.h" />
+    <ClInclude Include="Externals\Includes\lua\lvm.h" />
+    <ClInclude Include="Externals\Includes\lua\lzio.h" />
+    <ClInclude Include="Externals\Includes\sol\config.hpp" />
+    <ClInclude Include="Externals\Includes\sol\forward.hpp" />
+    <ClInclude Include="Externals\Includes\sol\sol.hpp" />
+    <ClInclude Include="Includes\LuaWrapper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Externals\Sources\lua\lapi.c" />
+    <ClCompile Include="Externals\Sources\lua\lauxlib.c" />
+    <ClCompile Include="Externals\Sources\lua\lbaselib.c" />
+    <ClCompile Include="Externals\Sources\lua\lcode.c" />
+    <ClCompile Include="Externals\Sources\lua\lcorolib.c" />
+    <ClCompile Include="Externals\Sources\lua\lctype.c" />
+    <ClCompile Include="Externals\Sources\lua\ldblib.c" />
+    <ClCompile Include="Externals\Sources\lua\ldebug.c" />
+    <ClCompile Include="Externals\Sources\lua\ldo.c" />
+    <ClCompile Include="Externals\Sources\lua\ldump.c" />
+    <ClCompile Include="Externals\Sources\lua\lfunc.c" />
+    <ClCompile Include="Externals\Sources\lua\lgc.c" />
+    <ClCompile Include="Externals\Sources\lua\linit.c" />
+    <ClCompile Include="Externals\Sources\lua\liolib.c" />
+    <ClCompile Include="Externals\Sources\lua\llex.c" />
+    <ClCompile Include="Externals\Sources\lua\lmathlib.c" />
+    <ClCompile Include="Externals\Sources\lua\lmem.c" />
+    <ClCompile Include="Externals\Sources\lua\loadlib.c" />
+    <ClCompile Include="Externals\Sources\lua\lobject.c" />
+    <ClCompile Include="Externals\Sources\lua\lopcodes.c" />
+    <ClCompile Include="Externals\Sources\lua\loslib.c" />
+    <ClCompile Include="Externals\Sources\lua\lparser.c" />
+    <ClCompile Include="Externals\Sources\lua\lstate.c" />
+    <ClCompile Include="Externals\Sources\lua\lstring.c" />
+    <ClCompile Include="Externals\Sources\lua\lstrlib.c" />
+    <ClCompile Include="Externals\Sources\lua\ltable.c" />
+    <ClCompile Include="Externals\Sources\lua\ltablib.c" />
+    <ClCompile Include="Externals\Sources\lua\ltm.c" />
+    <ClCompile Include="Externals\Sources\lua\lua.c" />
+    <ClCompile Include="Externals\Sources\lua\lundump.c" />
+    <ClCompile Include="Externals\Sources\lua\lutf8lib.c" />
+    <ClCompile Include="Externals\Sources\lua\lvm.c" />
+    <ClCompile Include="Externals\Sources\lua\lzio.c" />
+    <ClCompile Include="Sources\LuaWrapper.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{a751e788-6208-40b4-9f08-ca04805d7c92}</ProjectGuid>
+    <RootNamespace>CrystalLua</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <PublicIncludeDirectories>$(PublicIncludeDirectories)</PublicIncludeDirectories>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <PublicIncludeDirectories>$(PublicIncludeDirectories)</PublicIncludeDirectories>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeaderOutputFile />
+      <AdditionalIncludeDirectories>$(ProjectDir)Includes;$(ProjectDir)Externals\Includes;$(SolutionDir)CrystalEngine\Includes;$(SolutionDir)CrystalEngine\Externals\Includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(TargetDir)$(TargetName).lib" "$(SolutionDir)CrystalEngine\Externals\Libs\$(TargetName).lib"
+copy /Y "$(TargetDir)$(TargetName).lib" "$(SolutionDir)CrystalEditor\Externals\Libs\$(TargetName).lib"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <PrecompiledHeaderFile>
+      </PrecompiledHeaderFile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <PrecompiledHeaderOutputFile />
+      <AdditionalIncludeDirectories>$(ProjectDir)Includes;$(ProjectDir)Externals\Includes;$(SolutionDir)CrystalEngine\Includes;$(SolutionDir)CrystalEngine\Externals\Includes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(TargetDir)$(TargetName).lib" "$(SolutionDir)CrystalEngine\Externals\Libs\$(TargetName).lib"
+copy /Y "$(TargetDir)$(TargetName).lib" "$(SolutionDir)CrystalEditor\Externals\Libs\$(TargetName).lib"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

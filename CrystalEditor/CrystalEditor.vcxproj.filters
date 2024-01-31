@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Sources\Externals">
+      <UniqueIdentifier>{9b85fe3c-21e7-40a5-9296-05d5ea6ed85e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Externals\imgui">
+      <UniqueIdentifier>{a29dc0f5-1094-455c-b0af-4b0ae925609f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Editor">
+      <UniqueIdentifier>{6f46a9e8-fd37-477f-9339-c99693183a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Editor">
+      <UniqueIdentifier>{11740b77-fd60-4526-b7d2-0ffe6150a274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Scripts">
+      <UniqueIdentifier>{c61f26f8-f766-42dd-8845-33e8f21ce268}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes\UI\Editor.h">
+      <Filter>Includes\Editor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Externals\Sources\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Sources\Externals\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Externals\Sources\imgui\imgui_stdlib.cpp">
+      <Filter>Sources\Externals\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Externals\Sources\imgui\imgui_tables.cpp">
+      <Filter>Sources\Externals\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Externals\Sources\imgui\imgui_widgets.cpp">
+      <Filter>Sources\Externals\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Externals\Sources\imgui\imgui.cpp">
+      <Filter>Sources\Externals\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Externals\Sources\imgui\imgui_draw.cpp">
+      <Filter>Sources\Externals\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Externals\Sources\imgui\imgui_impl_glfw.cpp">
+      <Filter>Sources\Externals\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\UI\Editor.cpp">
+      <Filter>Sources\Editor</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+Blender Users: Use the FBX as there's a weird bug only in blender afaik with the dae

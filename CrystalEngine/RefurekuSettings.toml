@@ -1,0 +1,115 @@
+[CodeGenManagerSettings]
+# List of supported extensions
+supportedFileExtensions = [".h", ".hpp"]
+
+# Files contained in the directories of this list will be parsed
+toProcessDirectories = [
+	'''./Includes/Core''',
+	'''./Includes/Debug''',
+	'''./Includes/Maths''',
+	'''./Includes/Render''',
+	'''./Includes/Resources''',
+	'''./Includes/Utils''',
+	'''./Includes/Physics''',
+	'''./Includes/Animation''',
+	'''./Includes/Scenes''',
+	'''./Includes/Scripts'''
+]
+
+# Files to parse which are not included in any directory of toParseDirectories
+toProcessFiles = []
+
+# Files contained in the directories of this list will be ignored
+ignoredDirectories = [
+	'''./Includes/Refureku/Generated'''
+]
+
+# Files not to parse which are not included in any directory of ignoredDirectories
+ignoredFiles = [
+#	'''C:/Users/o.luanda/Deve/CrystalEngine/CrystalEngine/Includes/Scripts/LuaScript.h''',
+#	'''C:/Users/o.luanda/Deve/CrystalEngine/CrystalEngine/Includes/Scripts/PythonScript.h'''
+]
+
+[CodeGenUnitSettings]
+# Generated files will be located here
+outputDirectory ='''./Includes/Refureku/Generated'''
+
+
+generatedHeaderFileNamePattern = "##FILENAME##.rfkh.h"
+generatedSourceFileNamePattern = "##FILENAME##.rfks.h"
+classFooterMacroPattern = "##CLASSFULLNAME##_GENERATED"
+headerFileFooterMacroPattern = "File_##FILENAME##_GENERATED"
+
+# Uncomment if you use Refureku on a dynamic library (.dll/.so/.dylib)
+# Define the export macro so that Refureku can export relevant generated code
+# exportSymbolMacroName = "EXAMPLE_IMPORT_EXPORT_MACRO"
+
+
+[ParsingSettings]
+# Used c++ version (supported values are: 17, 20)
+cppVersion = 17
+
+# Include directories of the project
+projectIncludeDirectories = [
+	'''./Externals/Includes/Refureku''',
+	'''./Includes''',
+	'''./Externals/Includes''',
+	'''./Externals/Includes/freetype''',
+	'''../CrystalLuaCrystalLua/Includes''',
+    '''../CrystalLua/Externals/Includes''',
+    '''../CrystalLua/Externals/Includes''',
+    '''../CrystalPython/Includes''',
+    '''../CrystalPython/Externals/Includes'''
+]
+
+# projectIncludeDirectories = [
+#	'''./Externals/Includes/Refureku''',
+#	'''./Externals/Includes/assimp''',
+#	'''./Externals/Includes/freetype''',
+#	'''./Externals/Includes/glad''',
+#	'''./Externals/Includes/glfw''',
+#	'''./Externals/Includes/KHR''',
+#	'''./Externals/Includes/LightJson''',
+#	'''./Externals/Includes/miniaudio''',
+#	'''./Externals/Includes/stbi''',
+#    '''./Externals/Includes/imgui''',
+#    '''../CrystalLua/Externals/Includes/lua''',
+#    '''../CrystalLua/Externals/Includes/sol''',
+#    '''../CrystalPython/Externals/Includes/pybind''',
+#    '''../CrystalPython/Externals/Includes/python'''
+#]
+
+
+# Must be one of "msvc", "clang++", "g++"
+compilerExeName = "msvc"
+
+# Abort parsing on first encountered error
+shouldAbortParsingOnFirstError = true
+
+# Should all entities be parsed whether they are annotated or not
+shouldParseAllNamespaces = false
+shouldParseAllClasses = false
+shouldParseAllStructs = false
+shouldParseAllVariables = false
+shouldParseAllFields = false
+shouldParseAllFunctions = false
+shouldParseAllMethods = false
+shouldParseAllEnums = false
+shouldParseAllEnumValues = true
+
+shouldLogDiagnostic = false
+
+propertySeparator = ","
+subPropertySeparator = ","
+subPropertyStartEncloser = "("
+subPropertyEndEncloser = ")"
+
+namespaceMacroName = "NAMESPACE"
+classMacroName = "CLASS"
+structMacroName = "STRUCT"
+variableMacroName = "VARIABLE"
+fieldMacroName = "FIELD"
+functionMacroName = "FUNCTION"
+methodMacroName = "METHOD"
+enumMacroName = "ENUM"
+enumValueMacroName = "ENUMVALUE"

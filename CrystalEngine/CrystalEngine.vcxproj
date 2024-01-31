@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Externals\Sources\glad\glad.cpp" />
+    <ClCompile Include="Externals\Sources\LightJson\JsonDeserializer.cpp" />
+    <ClCompile Include="Externals\Sources\LightJson\JsonSerializer.cpp" />
+    <ClCompile Include="Externals\Sources\LightJson\JsonUtils.cpp" />
+    <ClCompile Include="Sources\Animation\Animation.cpp" />
+    <ClCompile Include="Sources\Animation\Animator.cpp" />
+    <ClCompile Include="Sources\Animation\Bone.cpp" />
+    <ClCompile Include="Sources\Animation\Skeleton.cpp" />
+    <ClCompile Include="Sources\Core\Engine.cpp" />
+    <ClCompile Include="Sources\Core\SoundManager.cpp" />
+    <ClCompile Include="Sources\Core\ThreadManager.cpp" />
+    <ClCompile Include="Sources\Core\TimeManager.cpp" />
+    <ClCompile Include="Sources\Core\Window.cpp" />
+    <ClCompile Include="Sources\Debug\Logger.cpp" />
+    <ClCompile Include="Sources\Interface\Widget.cpp" />
+    <ClCompile Include="Sources\Maths\AngleAxis.cpp" />
+    <ClCompile Include="Sources\Maths\Arithmetic.cpp" />
+    <ClCompile Include="Sources\Maths\Color.cpp" />
+    <ClCompile Include="Sources\Maths\Matrix.cpp" />
+    <ClCompile Include="Sources\Maths\Quaternion.cpp" />
+    <ClCompile Include="Sources\Maths\Transform.cpp" />
+    <ClCompile Include="Sources\Maths\Vector2.cpp" />
+    <ClCompile Include="Sources\Maths\Vector3.cpp" />
+    <ClCompile Include="Sources\Maths\Vector4.cpp" />
+    <ClCompile Include="Sources\Physics\Geometry3D.cpp" />
+    <ClCompile Include="Sources\Physics\Particle.cpp" />
+    <ClCompile Include="Sources\Physics\PhysicSystem.cpp" />
+    <ClCompile Include="Sources\Physics\RenderHelp.cpp" />
+    <ClCompile Include="Sources\Physics\RigidbodyVolume.cpp" />
+    <ClCompile Include="Sources\Render\Camera.cpp" />
+    <ClCompile Include="Sources\Render\CameraManager.cpp" />
+    <ClCompile Include="Sources\Render\LightManager.cpp" />
+    <ClCompile Include="Sources\Render\PostProcessor.cpp" />
+    <ClCompile Include="Sources\Render\Renderer.cpp" />
+    <ClCompile Include="Sources\Resources\Cubemap.cpp" />
+    <ClCompile Include="Sources\Resources\AssimpPaser.cpp" />
+    <ClCompile Include="Sources\Resources\Material.cpp" />
+    <ClCompile Include="Sources\Resources\Mesh.cpp" />
+    <ClCompile Include="Sources\Resources\RenderTexture.cpp" />
+    <ClCompile Include="Sources\Resources\ResourceManager.cpp" />
+    <ClCompile Include="Sources\Resources\Shader.cpp" />
+    <ClCompile Include="Sources\Resources\ShaderProgram.cpp" />
+    <ClCompile Include="Sources\Resources\Sound.cpp" />
+    <ClCompile Include="Sources\Resources\SubMesh.cpp" />
+    <ClCompile Include="Sources\Resources\Font.cpp" />
+    <ClCompile Include="Sources\Resources\Texture.cpp" />
+    <ClCompile Include="Sources\Resources\WavefrontParser.cpp" />
+    <ClCompile Include="Sources\Scenes\GameObject.cpp" />
+    <ClCompile Include="Sources\Scenes\ObjectTag.cpp" />
+    <ClCompile Include="Sources\Scenes\Scene.cpp" />
+    <ClCompile Include="Sources\Scenes\SceneGraph.cpp" />
+    <ClCompile Include="Sources\Scenes\SceneManager.cpp" />
+    <ClCompile Include="Sources\Scripts\DefaultScripts.cpp" />
+    <ClCompile Include="Sources\Scripts\EnemyScript.cpp" />
+    <ClCompile Include="Sources\Scripts\LuaScript.cpp" />
+    <ClCompile Include="Sources\Scripts\MainMenu.cpp" />
+    <ClCompile Include="Sources\Scripts\PlayerMovement.cpp" />
+    <ClCompile Include="Sources\Scripts\PythonScript.cpp" />
+    <ClCompile Include="Sources\Scripts\SetUpTreeScript.cpp" />
+    <ClCompile Include="Sources\Scripts\ShaderScript.cpp" />
+    <ClCompile Include="Sources\Utils\JsonHelper.cpp" />
+    <ClCompile Include="Sources\Utils\WindowsConverter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Externals\Includes\LightJson\JsonDeserializer.h" />
+    <ClInclude Include="Externals\Includes\LightJson\JsonElement.h" />
+    <ClInclude Include="Externals\Includes\LightJson\JsonObject.h" />
+    <ClInclude Include="Externals\Includes\LightJson\JsonSerializer.h" />
+    <ClInclude Include="Externals\Includes\LightJson\JsonUtils.h" />
+    <ClInclude Include="Externals\Includes\LightJson\JsonVirtual.h" />
+    <ClInclude Include="Externals\Includes\LightJson\StringUtils.h" />
+    <ClInclude Include="Includes\Animation\Animation.h" />
+    <ClInclude Include="Includes\Animation\Animator.h" />
+    <ClInclude Include="Includes\Animation\Bone.h" />
+    <ClInclude Include="Includes\Animation\Skeleton.h" />
+    <ClInclude Include="Includes\Core\Engine.h" />
+    <ClInclude Include="Includes\Core\EventDispatcher.h" />
+    <ClInclude Include="Includes\Core\Events.h" />
+    <ClInclude Include="Includes\Core\SoundManager.h" />
+    <ClInclude Include="Includes\Core\ThreadManager.h" />
+    <ClInclude Include="Includes\Core\TimeManager.h" />
+    <ClInclude Include="Includes\Core\Window.h" />
+    <ClInclude Include="Includes\Debug\Logger.h" />
+    <ClInclude Include="Includes\Interface\Widget.h" />
+    <ClInclude Include="Includes\Maths\AngleAxis.h" />
+    <ClInclude Include="Includes\Maths\Arithmetic.h" />
+    <ClInclude Include="Includes\Maths\Color.h" />
+    <ClInclude Include="Includes\Maths\MathConstants.h" />
+    <ClInclude Include="Includes\Maths\Maths.h" />
+    <ClInclude Include="Includes\Maths\Matrix.h" />
+    <ClInclude Include="Includes\Maths\Quaternion.h" />
+    <ClInclude Include="Includes\Maths\Transform.h" />
+    <ClInclude Include="Includes\Maths\Vector2.h" />
+    <ClInclude Include="Includes\Maths\Vector3.h" />
+    <ClInclude Include="Includes\Maths\Vector4.h" />
+    <ClInclude Include="Includes\Maths\Vertex.h" />
+    <ClInclude Include="Includes\Physics\Geometry3D.h" />
+    <ClInclude Include="Includes\Physics\Particle.h" />
+    <ClInclude Include="Includes\Physics\PhysicSystem.h" />
+    <ClInclude Include="Includes\Physics\RenderHelp.h" />
+    <ClInclude Include="Includes\Physics\Rigidbody.h" />
+    <ClInclude Include="Includes\Physics\RigidbodyVolume.h" />
+    <ClInclude Include="Includes\Render\Camera.h" />
+    <ClInclude Include="Includes\Render\CameraManager.h" />
+    <ClInclude Include="Includes\Render\Light.h" />
+    <ClInclude Include="Includes\Render\LightManager.h" />
+    <ClInclude Include="Includes\Render\PostProcessor.h" />
+    <ClInclude Include="Includes\Render\Renderer.h" />
+    <ClInclude Include="Includes\Resources\Cubemap.h" />
+    <ClInclude Include="Includes\Resources\AssimpParser.h" />
+    <ClInclude Include="Includes\Resources\Material.h" />
+    <ClInclude Include="Includes\Resources\Mesh.h" />
+    <ClInclude Include="Includes\Resources\RenderTexture.h" />
+    <ClInclude Include="Includes\Resources\Resource.h" />
+    <ClInclude Include="Includes\Resources\ResourceManager.h" />
+    <ClInclude Include="Includes\Resources\Shader.h" />
+    <ClInclude Include="Includes\Resources\ShaderProgram.h" />
+    <ClInclude Include="Includes\Resources\Sound.h" />
+    <ClInclude Include="Includes\Resources\SubMesh.h" />
+    <ClInclude Include="Includes\Resources\Font.h" />
+    <ClInclude Include="Includes\Resources\Texture.h" />
+    <ClInclude Include="Includes\Resources\WavefrontParser.h" />
+    <ClInclude Include="Includes\Scenes\GameObject.h" />
+    <ClInclude Include="Includes\Scenes\ObjectTag.h" />
+    <ClInclude Include="Includes\Scenes\Scene.h" />
+    <ClInclude Include="Includes\Scenes\SceneGraph.h" />
+    <ClInclude Include="Includes\Scenes\SceneManager.h" />
+    <ClInclude Include="Includes\Scripts\DefaultScripts.h" />
+    <ClInclude Include="Includes\Scripts\EnemyScript.h" />
+    <ClInclude Include="Includes\Scripts\LuaScript.h" />
+    <ClInclude Include="Includes\Scripts\MainMenu.h" />
+    <ClInclude Include="Includes\Scripts\ObjectScript.h" />
+    <ClInclude Include="Includes\Scripts\PlayerMovement.h" />
+    <ClInclude Include="Includes\Scripts\PythonScript.h" />
+    <ClInclude Include="Includes\Scripts\SetUpTreeScript.h" />
+    <ClInclude Include="Includes\Scripts\ShaderScript.h" />
+    <ClInclude Include="Includes\Utils\IdGenerator.h" />
+    <ClInclude Include="Includes\Utils\JsonHelper.h" />
+    <ClInclude Include="Includes\Utils\PipelineData.h" />
+    <ClInclude Include="Includes\Utils\Typedefs.h" />
+    <ClInclude Include="Includes\Utils\WindowsConverter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Includes\Core\EventDispatcher.inl" />
+    <None Include="Includes\Maths\Matrix.inl" />
+    <None Include="Includes\Maths\Quaternion.inl" />
+    <None Include="Includes\Maths\Vector2.inl" />
+    <None Include="Includes\Maths\Vector3.inl" />
+    <None Include="Includes\Maths\Vector4.inl" />
+    <None Include="Includes\Resources\ResourceManager.inl" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{7130f4c9-71d8-4fed-9064-1986bce41589}</ProjectGuid>
+    <RootNamespace>CrystalEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>false</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <EnableUnitySupport>false</EnableUnitySupport>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)Includes;$(ProjectDir)Externals\Includes;$(ProjectDir)Externals\Includes\freetype;$(SolutionDir)CrystalLua\Includes;$(SolutionDir)CrystalLua\Externals\Includes;$(SolutionDir)CrystalPython\Includes;$(SolutionDir)CrystaPython\Externals\Includes</AdditionalIncludeDirectories>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
+      <ExceptionHandling>Async</ExceptionHandling>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)Externals\Libs</AdditionalLibraryDirectories>
+      <AdditionalDependencies>CrystalLua.lib;freetype.lib;opengl32.lib;glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(TargetDir)$(TargetName).lib" "$(SolutionDir)CrystalEditor\Externals\Libs\$(TargetName).lib"
+copy /Y "$(TargetDir)$(TargetName).lib" "$(SolutionDir)CrystalPython\Externals\Libs\$(TargetName).lib"</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)Externals\Libs</AdditionalLibraryDirectories>
+    </Lib>
+    <PreBuildEvent>
+      <Command>"$(ProjectDir)Externals\Bin\RefurekuGenerator.exe"   "$(ProjectDir)RefurekuSettings.toml"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>$(ProjectDir)Includes;$(ProjectDir)Externals\Includes;$(ProjectDir)Externals\Includes\freetype;$(SolutionDir)CrystalLua\Includes;$(SolutionDir)CrystalLua\Externals\Includes;$(SolutionDir)CrystalPython\Includes;$(SolutionDir)CrystaPython\Externals\Includes</AdditionalIncludeDirectories>
+      <PrecompiledHeaderFile />
+      <PrecompiledHeaderOutputFile />
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDir)Externals\Libs</AdditionalLibraryDirectories>
+      <AdditionalDependencies>CrystalLua.lib;freetype.lib;opengl32.lib;glfw3.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(TargetDir)$(TargetName).lib" "$(SolutionDir)CrystalEditor\Externals\Libs\$(TargetName).lib"
+copy /Y "$(TargetDir)$(TargetName).lib" "$(SolutionDir)CrystalPython\Externals\Libs\$(TargetName).lib"</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalLibraryDirectories>$(ProjectDir)Externals\Libs</AdditionalLibraryDirectories>
+    </Lib>
+    <PreBuildEvent>
+      <Command>"$(ProjectDir)Externals\Bin\RefurekuGenerator.exe"   "$(ProjectDir)RefurekuSettings.toml"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

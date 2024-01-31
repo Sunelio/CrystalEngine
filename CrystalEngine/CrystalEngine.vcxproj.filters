@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Externals">
+      <UniqueIdentifier>{a33c6cd9-d3dc-4eea-b6c2-a0d090ce015b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externals\Sources">
+      <UniqueIdentifier>{50b7bdc5-e622-4461-9943-6df0f9e91584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externals\Sources\LightJson">
+      <UniqueIdentifier>{e30b2220-1bd4-4f5d-a066-d5a1a6b2d2cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externals\Sources\glad">
+      <UniqueIdentifier>{9edde284-f701-4ed6-b513-7f4438d38ebc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externals\Includes">
+      <UniqueIdentifier>{eac09b5f-ac91-4495-ad43-796032a4ec47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externals\Includes\LightJson">
+      <UniqueIdentifier>{7770bf26-0133-47db-aed7-d4f621a9ff06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{1b49385c-8250-41ee-8665-41ee1d2a5d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Core">
+      <UniqueIdentifier>{3bd9f43e-e9c3-437c-81be-375f66d5ae61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Debug">
+      <UniqueIdentifier>{34ad9bc0-e8df-4322-a32b-a3ce5813be40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Maths">
+      <UniqueIdentifier>{ccd31d52-04b7-4358-b84c-477c70b90180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Physics">
+      <UniqueIdentifier>{8609f395-7a83-4012-ac31-3bd8e7cd4f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Render">
+      <UniqueIdentifier>{913c6ee6-78e9-4de2-8539-0b9f4717dd7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Resources">
+      <UniqueIdentifier>{34011156-5db5-4d78-9a1a-2e3e3f7ed762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Scenes">
+      <UniqueIdentifier>{4addde08-203b-4ae5-b73f-20126e14b9bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Scripts">
+      <UniqueIdentifier>{e6a34a0a-8381-4d3e-af1a-1321f9ad4abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{74ad77cc-5bf2-490d-a7ca-f90a40077936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Core">
+      <UniqueIdentifier>{04aa3c7b-ea16-4a14-9e64-19ea1bb8bcf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Debug">
+      <UniqueIdentifier>{0ea1935b-4ce8-4216-9600-b456a1a634b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Render">
+      <UniqueIdentifier>{309a82be-07a0-4b96-9f3f-1a2e4cb1fe70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Resources">
+      <UniqueIdentifier>{1b122714-fb17-46b8-8bd4-ecaeffdaea9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Scenes">
+      <UniqueIdentifier>{8c3c8e79-3688-4372-b96a-492980f855bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Maths">
+      <UniqueIdentifier>{ae48e623-c19d-4f7e-b44d-29e01214ccb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Utils">
+      <UniqueIdentifier>{6cb9bd80-5c7e-4b6d-b6d8-44ebb1bbdcd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Scripts">
+      <UniqueIdentifier>{91be43bc-2e7d-4413-ab8e-b9c01a22238d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Physics">
+      <UniqueIdentifier>{4ec53a33-4bb7-4a91-b2cd-656c20a9f7ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Utils">
+      <UniqueIdentifier>{a75a8afc-ab1e-497f-8cbd-1f0e6d487518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Animation">
+      <UniqueIdentifier>{925605dc-7be7-45ac-9db3-d3e4d2e886b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Animation">
+      <UniqueIdentifier>{6b6abb51-0fd9-4f70-8d53-040a2de10556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Includes\Interface">
+      <UniqueIdentifier>{2424fcbb-95fe-41aa-ba64-35c0032cf24b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Interface">
+      <UniqueIdentifier>{d0366ad7-04ef-4f61-80c3-02df64528563}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes\Core\EventDispatcher.h">
+      <Filter>Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Engine.h">
+      <Filter>Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Events.h">
+      <Filter>Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\EventDispatcher.h">
+      <Filter>Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\ThreadManager.h">
+      <Filter>Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\TimeManager.h">
+      <Filter>Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Window.h">
+      <Filter>Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Debug\Logger.h">
+      <Filter>Includes\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Render\Camera.h">
+      <Filter>Includes\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Render\CameraManager.h">
+      <Filter>Includes\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Render\Light.h">
+      <Filter>Includes\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Render\LightManager.h">
+      <Filter>Includes\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Render\PostProcessor.h">
+      <Filter>Includes\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Render\Renderer.h">
+      <Filter>Includes\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Resources\Cubemap.h">
+      <Filter>Includes\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Resources\Material.h">
+      <Filter>Includes\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Resources\Mesh.h">
+      <Filter>Includes\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Resources\RenderTexture.h">
+      <Filter>Includes\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Resources\Resource.h">
+      <Filter>Includes\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Resources\ResourceManager.h">
+      <Filter>Includes\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Resources\Shader.h">
+      <Filter>Includes\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Resources\ShaderProgram.h">
+      <Filter>Includes\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Resources\SubMesh.h">
+      <Filter>Includes\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Resources\Texture.h">
+      <Filter>Includes\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Resources\WavefrontParser.h">
+      <Filter>Includes\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Scenes\GameObject.h">
+      <Filter>Includes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Scenes\ObjectTag.h">
+      <Filter>Includes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Scenes\Scene.h">
+      <Filter>Includes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Scenes\SceneGraph.h">
+      <Filter>Includes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Scenes\SceneManager.h">
+      <Filter>Includes\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\AngleAxis.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Arithmetic.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Color.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\MathConstants.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Maths.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Matrix.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Quaternion.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Transform.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Vector2.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Vector3.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Vector4.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Maths\Vertex.h">
+      <Filter>Includes\Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Utils\PipelineData.h">
+      <Filter>Includes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Utils\Typedefs.h">
+      <Filter>Includes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Scripts\LuaScript.h">
+      <Filter>Includes\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Scripts\ObjectScript.h">
+      <Filter>Includes\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Scripts\PythonScript.h">
+      <Filter>Includes\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Scripts\ShaderScript.h">
+      <Filter>Includes\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Physics\Geometry3D.h">
+      <Filter>Includes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Physics\Particle.h">
+      <Filter>Includes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Physics\PhysicSystem.h">
+      <Filter>Includes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Physics\Rigidbody.h">
+      <Filter>Includes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Physics\RigidbodyVolume.h">
+      <Filter>Includes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Physics\Particle.h">
+      <Filter>Includes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Resources\Cubemap.h">
+      <Filter>Includes\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Scripts\LuaScript.h">
+      <Filter>Includes\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\Events.h">
+      <Filter>Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\EventDispatcher.h">
+      <Filter>Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\EventDispatcher.h">
+      <Filter>Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Scripts\PythonScript.h">
+      <Filter>Includes\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Utils\JsonHelper.h">
+      <Filter>Externals\Includes\LightJson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Resources\AssimpParser.h">
+      <Filter>Includes\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Physics\RenderHelp.h">
+      <Filter>Includes\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Scripts\DefaultScripts.h">
+      <Filter>Includes\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Resources\Font.h">
+      <Filter>Includes\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Utils\JsonHelper.h">
+      <Filter>Includes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\LightJson\JsonObject.h">
+      <Filter>Externals\Includes\LightJson</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\LightJson\JsonSerializer.h">
+      <Filter>Externals\Includes\LightJson</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\LightJson\JsonUtils.h">
+      <Filter>Externals\Includes\LightJson</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\LightJson\JsonVirtual.h">
+      <Filter>Externals\Includes\LightJson</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\LightJson\StringUtils.h">
+      <Filter>Externals\Includes\LightJson</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\LightJson\JsonDeserializer.h">
+      <Filter>Externals\Includes\LightJson</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\LightJson\JsonElement.h">
+      <Filter>Externals\Includes\LightJson</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Resources\Sound.h">
+      <Filter>Includes\Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Animation\Animation.h">
+      <Filter>Includes\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Animation\Animator.h">
+      <Filter>Includes\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Animation\Bone.h">
+      <Filter>Includes\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Animation\Skeleton.h">
+      <Filter>Includes\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Core\SoundManager.h">
+      <Filter>Includes\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Scripts\PlayerMovement.h">
+      <Filter>Includes\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Interface\Widget.h">
+      <Filter>Includes\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Utils\IdGenerator.h">
+      <Filter>Includes\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Utils\WindowsConverter.h" />
+    <ClInclude Include="Includes\Scripts\MainMenu.h">
+      <Filter>Includes\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Scripts\EnemyScript.h">
+      <Filter>Includes\Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes\Scripts\SetUpTreeScript.h">
+      <Filter>Includes\Scripts</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Includes\Maths\Quaternion.inl">
+      <Filter>Includes\Maths</Filter>
+    </None>
+    <None Include="Includes\Maths\Vector2.inl">
+      <Filter>Includes\Maths</Filter>
+    </None>
+    <None Include="Includes\Maths\Vector3.inl">
+      <Filter>Includes\Maths</Filter>
+    </None>
+    <None Include="Includes\Maths\Vector4.inl">
+      <Filter>Includes\Maths</Filter>
+    </None>
+    <None Include="Includes\Maths\Matrix.inl">
+      <Filter>Includes\Maths</Filter>
+    </None>
+    <None Include="Includes\Resources\ResourceManager.inl">
+      <Filter>Includes\Resources</Filter>
+    </None>
+    <None Include="Includes\Core\EventDispatcher.inl">
+      <Filter>Includes\Core</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Externals\Sources\glad\glad.cpp">
+      <Filter>Externals\Sources\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="Externals\Sources\LightJson\JsonDeserializer.cpp">
+      <Filter>Externals\Sources\LightJson</Filter>
+    </ClCompile>
+    <ClCompile Include="Externals\Sources\LightJson\JsonSerializer.cpp">
+      <Filter>Externals\Sources\LightJson</Filter>
+    </ClCompile>
+    <ClCompile Include="Externals\Sources\LightJson\JsonUtils.cpp">
+      <Filter>Externals\Sources\LightJson</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Engine.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\ThreadManager.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\TimeManager.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Window.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Debug\Logger.cpp">
+      <Filter>Sources\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Maths\AngleAxis.cpp">
+      <Filter>Sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Maths\Arithmetic.cpp">
+      <Filter>Sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Maths\Color.cpp">
+      <Filter>Sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Maths\Quaternion.cpp">
+      <Filter>Sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Maths\Transform.cpp">
+      <Filter>Sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Maths\Vector2.cpp">
+      <Filter>Sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Maths\Vector3.cpp">
+      <Filter>Sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Maths\Vector4.cpp">
+      <Filter>Sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Physics\Geometry3D.cpp">
+      <Filter>Sources\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Physics\Particle.cpp">
+      <Filter>Sources\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Physics\PhysicSystem.cpp">
+      <Filter>Sources\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Physics\RigidbodyVolume.cpp">
+      <Filter>Sources\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Render\Camera.cpp">
+      <Filter>Sources\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Render\CameraManager.cpp">
+      <Filter>Sources\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Render\LightManager.cpp">
+      <Filter>Sources\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Render\PostProcessor.cpp">
+      <Filter>Sources\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Render\Renderer.cpp">
+      <Filter>Sources\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resources\Cubemap.cpp">
+      <Filter>Sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resources\Material.cpp">
+      <Filter>Sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resources\Mesh.cpp">
+      <Filter>Sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resources\RenderTexture.cpp">
+      <Filter>Sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resources\ResourceManager.cpp">
+      <Filter>Sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resources\Shader.cpp">
+      <Filter>Sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resources\ShaderProgram.cpp">
+      <Filter>Sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resources\SubMesh.cpp">
+      <Filter>Sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resources\Texture.cpp">
+      <Filter>Sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resources\WavefrontParser.cpp">
+      <Filter>Sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scenes\GameObject.cpp">
+      <Filter>Sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scenes\ObjectTag.cpp">
+      <Filter>Sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scenes\Scene.cpp">
+      <Filter>Sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scenes\SceneGraph.cpp">
+      <Filter>Sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scenes\SceneManager.cpp">
+      <Filter>Sources\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scripts\LuaScript.cpp">
+      <Filter>Sources\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scripts\PythonScript.cpp">
+      <Filter>Sources\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scripts\ShaderScript.cpp">
+      <Filter>Sources\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scripts\LuaScript.cpp">
+      <Filter>Sources\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scripts\PythonScript.cpp">
+      <Filter>Sources\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resources\AssimpPaser.cpp">
+      <Filter>Sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Physics\RenderHelp.cpp">
+      <Filter>Sources\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scripts\DefaultScripts.cpp">
+      <Filter>Sources\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Utils\JsonHelper.cpp">
+      <Filter>Sources\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Maths\Matrix.cpp">
+      <Filter>Sources\Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resources\Sound.cpp">
+      <Filter>Sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Animation\Animation.cpp">
+      <Filter>Sources\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Animation\Animator.cpp">
+      <Filter>Sources\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Animation\Bone.cpp">
+      <Filter>Sources\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Animation\Skeleton.cpp">
+      <Filter>Sources\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\SoundManager.cpp">
+      <Filter>Sources\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Resources\Font.cpp">
+      <Filter>Sources\Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scripts\PlayerMovement.cpp">
+      <Filter>Sources\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Interface\Widget.cpp">
+      <Filter>Sources\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Utils\WindowsConverter.cpp" />
+    <ClCompile Include="Sources\Scripts\MainMenu.cpp">
+      <Filter>Sources\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scripts\EnemyScript.cpp">
+      <Filter>Sources\Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scripts\SetUpTreeScript.cpp">
+      <Filter>Sources\Scripts</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

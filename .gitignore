@@ -1,0 +1,14 @@
+.vs
+.vscode
+.idea
+
+lfs/
+hooks/
+
+**/x64/**
+
+**/CrystalEngine.lib
+**/CrystalLua.lib
+**/CrystalPython.lib
+**/engine.log
+**/__pycache__

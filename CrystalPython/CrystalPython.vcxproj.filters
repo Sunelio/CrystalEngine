@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Externals">
+      <UniqueIdentifier>{2c6431f3-a515-4001-a792-98f6d96b18a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externals\Includes">
+      <UniqueIdentifier>{361a741f-ebe1-496f-ad3a-cbc086e7deed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externals\Sources">
+      <UniqueIdentifier>{31c7d46d-d1cd-4930-abb6-77859f0df693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externals\Includes\pybind">
+      <UniqueIdentifier>{ed13a18a-51ed-40d5-83c5-419a3429875f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externals\Includes\python">
+      <UniqueIdentifier>{5c7fa8a6-7cc4-4b7d-8efe-16d008e64478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externals\Includes\python\internal">
+      <UniqueIdentifier>{040db6d6-fbec-4104-aa52-d7c76c15e963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externals\Includes\pybind\stl">
+      <UniqueIdentifier>{d45b56c6-5cb1-473e-8f01-0941b11d435d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Externals\Includes\pybind\details">
+      <UniqueIdentifier>{12367849-f8ac-467f-8612-def575cd3677}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes\PythonOpaque.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\abstract.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\accu.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\asdl.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\ast.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\bitset.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\bltinmodule.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\boolobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\bytearrayobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\bytes_methods.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\bytesobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\cellobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\ceval.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\classobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\code.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\codecs.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\compile.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\complexobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\context.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\datetime.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\descrobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\dictobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\dtoa.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\dynamic_annotations.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\enumobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\errcode.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\eval.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\fileobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\fileutils.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\floatobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\frameobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\funcobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\genobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\graminit.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\grammar.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\import.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\intrcheck.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\iterobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\listobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\longintrepr.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\longobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\marshal.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\memoryobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\metagrammar.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\methodobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\modsupport.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\moduleobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\namespaceobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\node.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\object.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\objimpl.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\odictobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\opcode.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\osdefs.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\osmodule.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\parsetok.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\patchlevel.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pgen.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pgenheaders.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\py_curses.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pyarena.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pyatomic.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pycapsule.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pyconfig.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pyctype.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pydebug.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pydtrace.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pyerrors.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pyexpat.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pyfpe.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pyhash.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pylifecycle.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pymacconfig.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pymacro.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pymath.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pymem.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pyport.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pystate.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pystrcmp.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pystrhex.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pystrtod.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\Python.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\Python-ast.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pythonrun.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pythread.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\pytime.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\rangeobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\setobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\sliceobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\structmember.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\structseq.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\symtable.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\sysmodule.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\token.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\traceback.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\tupleobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\typeslots.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\ucnhash.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\unicodeobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\warnings.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\weakrefobject.h">
+      <Filter>Externals\Includes\python</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\internal\ceval.h">
+      <Filter>Externals\Includes\python\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\internal\condvar.h">
+      <Filter>Externals\Includes\python\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\internal\context.h">
+      <Filter>Externals\Includes\python\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\internal\gil.h">
+      <Filter>Externals\Includes\python\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\internal\hamt.h">
+      <Filter>Externals\Includes\python\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\internal\hash.h">
+      <Filter>Externals\Includes\python\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\internal\import.h">
+      <Filter>Externals\Includes\python\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\internal\mem.h">
+      <Filter>Externals\Includes\python\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\internal\pygetopt.h">
+      <Filter>Externals\Includes\python\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\internal\pystate.h">
+      <Filter>Externals\Includes\python\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\python\internal\warnings.h">
+      <Filter>Externals\Includes\python\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\attr.h">
+      <Filter>Externals\Includes\pybind</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\buffer_info.h">
+      <Filter>Externals\Includes\pybind</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\cast.h">
+      <Filter>Externals\Includes\pybind</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\chrono.h">
+      <Filter>Externals\Includes\pybind</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\common.h">
+      <Filter>Externals\Includes\pybind</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\complex.h">
+      <Filter>Externals\Includes\pybind</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\eigen.h">
+      <Filter>Externals\Includes\pybind</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\embed.h">
+      <Filter>Externals\Includes\pybind</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\eval.h">
+      <Filter>Externals\Includes\pybind</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\functional.h">
+      <Filter>Externals\Includes\pybind</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\gil.h">
+      <Filter>Externals\Includes\pybind</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\iostream.h">
+      <Filter>Externals\Includes\pybind</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\numpy.h">
+      <Filter>Externals\Includes\pybind</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\operators.h">
+      <Filter>Externals\Includes\pybind</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\options.h">
+      <Filter>Externals\Includes\pybind</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\pybind11.h">
+      <Filter>Externals\Includes\pybind</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\pytypes.h">
+      <Filter>Externals\Includes\pybind</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\stl.h">
+      <Filter>Externals\Includes\pybind</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\stl_bind.h">
+      <Filter>Externals\Includes\pybind</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\stl\filesystem.h">
+      <Filter>Externals\Includes\pybind\stl</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\detail\class.h">
+      <Filter>Externals\Includes\pybind\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\detail\common.h">
+      <Filter>Externals\Includes\pybind\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\detail\descr.h">
+      <Filter>Externals\Includes\pybind\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\detail\init.h">
+      <Filter>Externals\Includes\pybind\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\detail\internals.h">
+      <Filter>Externals\Includes\pybind\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\detail\type_caster_base.h">
+      <Filter>Externals\Includes\pybind\details</Filter>
+    </ClInclude>
+    <ClInclude Include="Externals\Includes\pybind\detail\typeid.h">
+      <Filter>Externals\Includes\pybind\details</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\PythonWrapper.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
